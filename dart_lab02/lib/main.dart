@@ -64,3 +64,47 @@
 //   greetAgain(name: 'hasan', greeting: 'Hello');
 //   greetAgain(name: 'hasan');
 // }
+
+
+
+
+                              //Task 3.2
+// void performOperation(
+//   int a,
+//   int b,
+//   int Function(int, int) operation,
+// ) {
+//   print(operation(a, b));
+// }
+
+// int add(int a, int b) => a + b;
+// int subtract(int a, int b) => a - b;
+// int multiply(int a, int b) => a * b;
+
+// void main() {
+//   performOperation(10, 5, add);
+//   performOperation(10, 5, subtract);
+//   performOperation(10, 5, multiply);
+// }
+                              //Task 4.1
+
+
+                              //Task 4.2
+
+
+                              //Task 5.1
+
+                              //Task 5.2
+
+                              //Task 5.3
+
+
+                              //Task 6.1
+
+
+
+
+
+
+
+
