@@ -5,5 +5,8 @@
     -Because it dose not have a fixed type.
 
 #Task 3.1
+**greet:** Uses positional parameters (arguments must be passed in order).
 
+**greetWelcome:** Uses optional positional parameters (enclosed in []).
 
+**greetAgain:** Uses named parameters (enclosed in {}).
