@@ -25,10 +25,6 @@
 
 
                                   //Task 2.1
-    // What is the difference between final and const?
-    // final variables can only be set once and are initialized when accessed, while const variables are compile-time constants and must be initialized at the time of declaration.
-    // Why can dynamic change from String to int?
-    // Because it dose not have a fixed type.
 void main() {
   final String courseName = 'Mobile App Development';
   const double pi = 3.14159;
@@ -43,3 +39,5 @@ void main() {
   anything = 42;
   print(anything);
 }
+
+
