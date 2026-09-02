@@ -98,21 +98,88 @@
 // }
 
                               //Task 4.2
-void main() {
-  List<String> fruitsList = []; 
-  List<String> moreFruits = ['grape', 'kiwi', 'mango']; 
+// void main() {
+//   List<String> fruitsList = []; 
+//   List<String> moreFruits = ['grape', 'kiwi', 'mango']; 
 
-  List<String> allFruits = [
-    'watermelon',
-    if (fruitsList.isNotEmpty) ...fruitsList,
-    for (var fruit in moreFruits) fruit,
-  ];
+//   List<String> allFruits = [
+//     'watermelon',
+//     if (fruitsList.isNotEmpty) ...fruitsList,
+//     for (var fruit in moreFruits) fruit,
+//   ];
 
-  print(allFruits);
-}
-                              //Task 5.1
+//   print(allFruits);
+// // }
+//                               //Task 5.1
+// class User {
+//   final String username;
+//   final String email;
 
-                              //Task 5.2
+//   User(this.username, this.email);
+// }
+
+// void main() {
+//   var user = User('ali_ux', 'ali@email.com');
+//   var user2 = User('hady al saleem', 'hady@email.com');
+//   print(user.username);
+//   print(user.email);
+//   print(user2.username);
+//   print(user2.email);
+// }              
+
+
+//                            //Task 5.2
+// abstract class Post {
+//   final String author;
+
+//   Post(this.author);
+
+//   void render();
+// }
+
+// class TextPost extends Post {
+//   final String text;
+
+//   TextPost(String author, this.text) : super(author);
+
+//   @override
+//   void render() {
+//     print('Text post by $author: "$text"');
+//   }
+// }
+
+// class ImagePost extends Post {
+//   final String imageUrl;
+
+//   ImagePost(String author, this.imageUrl) : super(author);
+
+//   @override
+//   void render() {
+//     print('Image post by $author at $imageUrl');
+//   }
+// }
+
+// class VideoPost extends Post {
+//   final String videoUrl;
+
+//   VideoPost(String author, this.videoUrl) : super(author);
+
+//   @override
+//   void render() {
+//     print('Video post by $author at $videoUrl');
+//   }
+// }
+// void main() {
+//   List<Post> feed = [
+//     TextPost('khalid', 'Flutter is amazing!'),
+//     ImagePost('omar', 'https://example.com/sunset.png'),
+//     VideoPost('sara', 'https://example.com/tutorial.mp4'),
+//   ];
+
+//   for (final post in feed) {
+//     post.render();
+//   }
+// }
 
                               //Task 5.3
 
