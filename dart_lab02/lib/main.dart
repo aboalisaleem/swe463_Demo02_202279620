@@ -98,8 +98,18 @@
 // }
 
                               //Task 4.2
+void main() {
+  List<String> fruitsList = []; 
+  List<String> moreFruits = ['grape', 'kiwi', 'mango']; 
 
+  List<String> allFruits = [
+    'watermelon',
+    if (fruitsList.isNotEmpty) ...fruitsList,
+    for (var fruit in moreFruits) fruit,
+  ];
 
+  print(allFruits);
+}
                               //Task 5.1
 
                               //Task 5.2

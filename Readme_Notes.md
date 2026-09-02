@@ -16,3 +16,5 @@
 -A Set in Dart is an unordered collection of unique items. Duplicate entries are automatically ignored.
 
 #Task 4.2
+**what the spread operator ... does?**
+-Spread Operator (...): The spread operator unpacks all elements of a collection into another collection.
