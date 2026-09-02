@@ -182,7 +182,34 @@
 // }
 
                               //Task 5.3
+// class Animal {
+//   void makeSound() {
+//     print('Some generic sound');
+//   }
+// }
 
+// mixin Swimmer {
+//   void swim() {
+//     print('I can swim!');
+//   }
+// }
+
+// class Dolphin extends Animal with Swimmer {}
+
+// class Duck extends Animal with Swimmer {
+//   @override
+//   void makeSound() {
+//     print('Quack!');
+//   }
+// }
+// void main() {
+//   final dolphin = Dolphin();
+//   final duck = Duck();
+//   dolphin.swim();
+//   dolphin.makeSound();
+//   duck.swim();
+//   duck.makeSound();
+// }
 
                               //Task 6.1
 
