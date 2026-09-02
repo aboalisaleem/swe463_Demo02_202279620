@@ -223,7 +223,12 @@
 //    //print(person._firstName);
 // }
                               //Task 6.2
+// import 'person.dart';
 
+// void main() {
+//   final person = GreetingPerson('Ali', 'Hussian');
+//   person.sayHi();
+// }
                               //Task 7.1
 
                               //Task 7.2

@@ -18,3 +18,9 @@
 #Task 4.2
 **what the spread operator ... does?**
 -Spread Operator (...): The spread operator unpacks all elements of a collection into another collection.
+
+#Task 6.2
+**Explain why GreetingPerson can access _firstName and _lastName even though they start with _**
+-as if variable start with (_) it becom priver to the library it belonges to.
+
+
