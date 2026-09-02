@@ -10,3 +10,9 @@
 **greetWelcome:** Uses optional positional parameters (enclosed in []).
 
 **greetAgain:** Uses named parameters (enclosed in {}).
+
+#Task 4.1
+**why the duplicate set item is not stored twice?**
+-A Set in Dart is an unordered collection of unique items. Duplicate entries are automatically ignored.
+
+#Task 4.2

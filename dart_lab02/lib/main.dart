@@ -87,7 +87,15 @@
 //   performOperation(10, 5, multiply);
 // }
                               //Task 4.1
+// void main() {
+//   var fruitsList = ['apples', 'oranges', 'bananas','strawberries'];
+//   var grades = {'quiz1': 85, 'quiz2': 92,'quiz3': 78};
+//   var tags = {'dart', 'flutter', 'mobile', 'flutter','dart'};
 
+//   print(fruitsList[3]);
+//   print(grades['quiz3']);
+//   print(tags);
+// }
 
                               //Task 4.2
 
